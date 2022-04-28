@@ -3,26 +3,37 @@ package edu.berkeley.aep.project;
 //Understands the product of two numbers added, subtracted, multiplied, divided
 public class Calculator {
 
-    private final int firstNumber, secondNumber;
+    private double firstNumber;
+    private double secondNumber;
 
-    public Calculator(int firstNumber, int secondNumber) {
+    public Calculator(double firstNumber, double secondNumber) {
         this.firstNumber = firstNumber;
         this.secondNumber = secondNumber;
     }
 
-    public int addition() {
+    public Calculator(double firstNumber) {
+        this.firstNumber = firstNumber;
+    }
+
+    public double addition() {
         return firstNumber + secondNumber;
     }
 
-    public int subtraction() {
+    public double subtraction() {
         return firstNumber - secondNumber;
     }
 
-    public int multiply() {
+    public double multiply() {
         return firstNumber*secondNumber;
     }
 
-    public int divide() {
+    public double divide() {
         return firstNumber/secondNumber;
+    }
+
+
+    public double square() {
+        return Math.sqrt(firstNumber);
+
     }
 }
