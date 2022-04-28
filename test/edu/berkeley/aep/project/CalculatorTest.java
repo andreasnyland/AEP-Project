@@ -25,7 +25,11 @@ public class CalculatorTest {
         assertEquals(0,calculator.subtraction(),0.1);
     }
 
-
+    @Test
+    public void MinusThreeMinusMinusFiveEqualsTwo() {
+        Calculator calculator = new Calculator(-3, -5);
+        assertEquals(2,calculator.subtraction(),0.1);
+    }
 
     @Test
     public void ThreeMultipliedWithThreeEqualsNine() {
