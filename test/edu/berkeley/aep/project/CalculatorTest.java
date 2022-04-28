@@ -25,4 +25,9 @@ public class CalculatorTest {
         assertEquals(9,calculator.multiply());
     }
 
+    @Test
+    public void TenDividedWithTwoEqualsFive() {
+        Calculator calculator = new Calculator(10, 2);
+        assertEquals(5,calculator.divide());
+    }
 }
