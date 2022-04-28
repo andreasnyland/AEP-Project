@@ -33,7 +33,10 @@ public class Calculator {
 
 
     public double square() {
-        return Math.sqrt(firstNumber);
+        if (firstNumber <= 0){
+            throw new IllegalArgumentException("Cannot find the square root of a negative number");
+        }
+            return Math.sqrt(firstNumber);
 
     }
 }
