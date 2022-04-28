@@ -20,9 +20,9 @@ public class KitchenConverterTest {
 
     }
 
-    @Test(expected = RuntimeException.class)
+/*    @Test(expected = RuntimeException.class)
     public void shouldNotBeAbleToAddIncomparableUnits(){
         //var twoTbsp = new Quantity(2, Unit.TBSP);
         //var oneInch =
-    }
+    }*/
 }
