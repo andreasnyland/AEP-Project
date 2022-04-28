@@ -31,6 +31,12 @@ public class CalculatorTest {
         assertEquals(5d,calculator.divide(),0.1);
     }
 
+    @Test
+    public void TenDividedWithThreeEqualsThreePoint33() {
+        Calculator calculator = new Calculator(10d, 3d);
+        assertEquals(3.33d,calculator.divide(),0.1);
+    }
+
 
     @Test
     public void FourSquaredEqualsTwo() {
