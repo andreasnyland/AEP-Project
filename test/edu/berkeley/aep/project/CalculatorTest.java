@@ -14,10 +14,18 @@ public class CalculatorTest {
     }
 
     @Test
+    public void MinusTenPlusTwoEqualsMinusEight() {
+        Calculator calculator = new Calculator(-10, 2);
+        assertEquals(-8,calculator.addition(),0.1);
+    }
+
+    @Test
     public void ThreeMinusThreeEqualsZero() {
         Calculator calculator = new Calculator(3, 3);
         assertEquals(0,calculator.subtraction(),0.1);
     }
+
+
 
     @Test
     public void ThreeMultipliedWithThreeEqualsNine() {
