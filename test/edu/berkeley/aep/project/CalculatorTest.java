@@ -18,4 +18,11 @@ public class CalculatorTest {
         Calculator calculator = new Calculator(3, 3);
         assertEquals(0,calculator.subtraction());
     }
+
+    @Test
+    public void ThreeMultipliedWithThreeEqualsNine() {
+        Calculator calculator = new Calculator(3, 3);
+        assertEquals(9,calculator.multiply());
+    }
+
 }
