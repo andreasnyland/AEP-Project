@@ -34,7 +34,7 @@
             </batchtest>
         </junit>
     </target>
-</project><project name="aep22">
+</project><project name="aep">
 <property name="main.build.dir" value="build/main"/>
 <property name="main.src.dir" value="src"/>
 <property name="test.build.dir" value="build/test"/>
