@@ -30,7 +30,7 @@ public class ChanceTest {
         assertEquals(dieRoll.and(coinToss),new Chance(1d/12d));
     }
 
-    @Test
+/*    @Test
     public void orProbabilityOfOneHalfAndOneSixthShouldBeOneSevenTwelth(){
         var dieRoll = new Chance(1d/6d);
         var coinToss = new Chance(1d/2d);
@@ -46,7 +46,7 @@ public class ChanceTest {
     public void zeroPoint5Or0point5ShouldBe0point75(){
         var dieRoll = new Chance(0.25);
         assertEquals(new Chance(0.25), dieRoll.or(dieRoll));
-    }
+    }*/
 
 
 
