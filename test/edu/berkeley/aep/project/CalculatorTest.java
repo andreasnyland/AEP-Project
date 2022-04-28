@@ -43,4 +43,10 @@ public class CalculatorTest {
         Calculator calculator = new Calculator(4);
         assertEquals(2,calculator.square(),0.1);
     }
+
+    @Test
+    public void TwentySquaredEqualsFourPoint47() {
+        Calculator calculator = new Calculator(20);
+        assertEquals(4.47d,calculator.square(),0.1);
+    }
 }
