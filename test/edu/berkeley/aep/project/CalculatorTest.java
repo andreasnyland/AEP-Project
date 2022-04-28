@@ -14,8 +14,8 @@ public class CalculatorTest {
     }
 
     @Test
-    public void TwoMinusTwoEqualsZero() {
-        Calculator calculator = new Calculator(2, 2);
+    public void ThreeMinusThreeEqualsZero() {
+        Calculator calculator = new Calculator(3, 3);
         assertEquals(0,calculator.subtraction());
     }
 }
